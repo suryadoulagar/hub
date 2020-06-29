@@ -22,7 +22,7 @@ a {
 
 .btn-outline-secondary:hover {
     text-decoration: none;
-    background-color: rgba(253, 86, 136, 0.411);
+    background-color: rgba(33, 221, 80, 0.781);
 }
 a:hover {
     color: black;
@@ -30,16 +30,17 @@ a:hover {
     font-style: obliques;
 }
 
-h5{
+h3, h5{
     text-align: center;
+    color: black;
 }
 
 .tree {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
 
 }
