@@ -1,6 +1,12 @@
-body {
-    background-image: url(bg.gif);
+html {
+    height: 100%;
 }
+
+body {
+    min-height: 100%;
+    background: url(bg.jpg);
+}
+
 
 .btn-outline-secondary {
    text-align: center;
@@ -13,9 +19,6 @@ a {
     text-decoration: black;
 }
 
-h1 {
-    margin-bottom: 256px;
-}
 
 .btn-outline-secondary:hover {
     text-decoration: none;
@@ -32,10 +35,11 @@ h5{
 }
 
 .tree {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    text-align: center;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 
 }
